@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SAT test</title>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta
+      name='viewport'
+      content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui'
+    />
+    <meta name='apple-mobile-web-app-status-bar-style' content='yes' />
+    <meta name='apple-mobile-web-app-capable' content='yes' />
+    <meta name='format-detection' content='telephone=no' />
+    <meta name='format-detection' content='email=no' />
+    <meta name='format-detection' content='address=no' />
+    <meta name='description' content='Atoms+' />
+    <meta name='x5-orientation' content='portrait' />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body, html, #root {
+        width: 100%;
+        height: 100%;
+      }
+      #root {
+        vertical-align: top;
+      }
+      canvas {
+        vertical-align: top;
+        border: solid 1px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='root'>
+      <canvas id='main' width='300' height='300'></canvas>
+    </div>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/sat/SAT.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

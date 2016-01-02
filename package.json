@@ -1,0 +1,17 @@
+{
+  "name": "sat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "sat": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "bower i && npm i",
+    "run": "npm install && ./node_modules/.bin/http-server"
+  },
+  "author": "Labi Kyo <labikyo@gmail.com>",
+  "license": "MIT"
+}
